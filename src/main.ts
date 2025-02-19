@@ -9,6 +9,6 @@ async function bootstrap() {
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true, // Important for WebSocket authentication (if needed)
   });
-  await app.listen(process.env.PORT ?? 3001);
+  await app.listen(process.env.PORT ?? 8000);
 }
 bootstrap();
