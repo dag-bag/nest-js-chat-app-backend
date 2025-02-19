@@ -12,7 +12,7 @@ import { JoinMessageDto } from './dto/join-message.dto';
 import { TypingMessageDto } from './dto/type-message.dto';
 import { Logger } from '@nestjs/common';
 
-@WebSocketGateway({
+@WebSocketGateway(85, {
   cors: {
     origin: '*',
   },
